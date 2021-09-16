@@ -41,7 +41,64 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
+    <img src="./assets/images/menu.png" id="menuBtn" alt="">
+
+    <!-- header  -->
+
+    <!-- about -->
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="./assets/images/about.png" alt="">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <span class="square"></span>
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolores ea qui error consectetur
+                    ratione laudantium eum aut quasi, quia, alias provident eveniet aspernatur vero dolor. Adipisci,
+                    quas iusto voluptatum possimus sint natus rem magnam id consectetur, nulla debitis molestiae
+                    quisquam sit non quasi mollitia ratione! Eligendi culpa excepturi consectetur magni quibusdam
+                    dignissimos earum cum mollitia unde, quos dolores veniam!</p>
+
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+
+                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quasi hic sequi cupiditate
+                    corrupti!</h2>
+                <h3>--- Likhon Ahmed</h3>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+
+
+
+
+ 
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
 </body>
 
 </html>
-
